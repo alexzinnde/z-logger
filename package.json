@@ -1,0 +1,25 @@
+{
+  "name": "z-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/",
+    "predev": "npm run build",
+    "dev": "node dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "prettier": "2.8.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4"
+  }
+}
